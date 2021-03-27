@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player</title>
+    <style>
+      .music-player {
+        width: 350px;
+        overflow-x: scroll;
+      }
+      button {
+        padding: 5px;
+        margin-top: 10px;
+        width: 100px;
+        background-color: transparent;
+        cursor: pointer;
+        border: 3px solid gray;
+        border-radius: 5px;
+      }
+      .container {
+        border: 3px solid gray;
+        width: 500px;
+        margin: auto;
+      }
+      .music-player {
+        border: 3px solid gray;
+        margin: auto;
+      }
+      .button-container {
+        position: relative;
+        margin-left: 185px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <audio id="player">
+          <source src="test.mp3" type="audio/mp3" preload="metadata" />
+        </audio>
+        <canvas height="200" width="480"></canvas>
+      </div>
+
+      <div class="button-container">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
