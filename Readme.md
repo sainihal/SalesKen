@@ -17,3 +17,12 @@ and named points as point1,point2,point3 respectively and more points can be
 added using insertMusicPoints function.
 * The bars here are of *random length* and the max length for them is 100 units both
 upward and downwards.
+
+### preview
+
+![SalesKen Assignment GIF](./SalesKen-Assignment.gif)
+
+
+### Live link
+[Live Demo](https://sainihal.github.io/SalesKen/index.html)
+
